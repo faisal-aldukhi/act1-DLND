@@ -1,11 +1,8 @@
 #!/bin/bash
 
 
-#conda init bash
-#source activate deep-learning
 echo $(which python)
 
-#python data_train.py 1 3
 f=499
 sum=$(( $i + $f ))
 for i in  $(seq 0 500 9000)
